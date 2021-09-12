@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>information of countries</title>
+</head>
+<body>
+    <div class="container">
+        <h2 id="title">information of countries</h2>
+        <div id="country" class="containBlock">
+            <span>Choose counrty:</span>
+            <form>
+            <select id="selectCountry">
+                <option>Click to open the List of countries... </option>
+            </select>
+            </form>
+            <button type="button" class="btn" onclick="ShowInfo()">Show information</button>
+        </div>
+        <br>
+        <div id="Continent" class="containBlock">
+            <span>Choose continent:</span>
+            <form>
+            <select id="selectContinent"> 
+                    <option>Click to open the List of continents... </option>
+                    <option value = "North America">North America</option>
+                    <option value = "South America">South America</option>
+                    <option value = "Asia">Asia</option>
+                    <option value = "Europe">Europe </option>
+                    <option value = "Africa">Africa </option>
+                    <option value = "Antartica">Antartica</option>
+                    <option value = "Australia">Australia</option>
+                    <option value = "Oceania">Oceania </option>
+
+                    
+            </select>
+            </form>
+            <button type="button" class="btn" onclick="filter()"">filter</button>
+        </div>
+    </div>
+</body>
+</html>
